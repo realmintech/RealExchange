@@ -52,7 +52,22 @@ h2{
     height: 30%;
 }
 
-@media(max-width:360px){
+@media(max-width:380px){
+    .converterWrap{
+        width: 85%;
+    }
+}
+@media(max-width:480px){
+    .converterWrap{
+        width: 85%;
+    }
+}
+@media(max-width:680px){
+    .converterWrap{
+        width: 85%;
+    }
+}
+@media(max-width:780px){
     .converterWrap{
         width: 85%;
     }
