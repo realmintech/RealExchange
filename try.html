@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try</title>
+    <link rel="stylesheet" href="try.css">
+</head>
+<body>
+    <div class="start">
+        <div class="up">
+            <h2>CURRENCY CONVERTER</h2>
+            <div class="converterWrap">
+                <div class="converterInputs">
+                    <div class="fromAmount">
+                        <p for="" style="font-size: 20px;">Amount</p>
+                        <input type="number" style="width: 70%; height:30px;" name="" id="input" class="formControl" placeholder="$" min="0" value="">
+                    </div>
+                   <div class="drop">
+                    <div class="fromCurrency" >
+                        <p for="" style="font-size: 20px;" >From</p>
+                        <select name="" id="from" style="width: 100%; height:30px;"></select>
+                    </div>
+                    <div class="toCurrency">
+                        <p for="" style="font-size: 20px;" >To</p>
+                        <select name="" id="to" style="width: 100%; height:30px;"></select>
+                    </div>
+                  </div>
+                  <div class="resultContainer">
+                    <input type="number" id="resultContainer1"disabled  style="width: 70%; height:30px;" >
+                </div>
+                <button type="button" id="convertBtn" style="text-transform: uppercase;" onclick="getdata()">Convert</button>
+            </div>
+                </div>
+        </div>
+        <div class="down">
+
+        </div>
+    </div>
+    <script src="try.js"></script>
+</body>
+</html>
